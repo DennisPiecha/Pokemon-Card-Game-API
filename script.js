@@ -33,7 +33,7 @@ function fetchData(e) {
     .then((data) => {
       const pokemonObj = {
         name: data.name,
-        imgFront: data.sprites.front_default,
+        imgFront: data.sprites.front_default, // oder back for asses
         stats: data.stats,
         abilities: data.abilities,
       };
